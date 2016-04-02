@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="elnemr.com.myapplication.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sunny"
+        android:orderInCategory="100"
+        android:icon="@drawable/clear_or_sunny"
+        android:title="@string/action_settings"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/rainy"
+        android:orderInCategory="100"
+        android:icon="@drawable/rainy"
+        android:title="@string/action_settings"
+        app:showAsAction="always" />
+</menu>
